@@ -1,0 +1,27 @@
+{
+  "name": "@lexdocengine/backend",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot src/index.ts",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "carbone": "^3.5.6",
+    "docxtemplater": "^3.68.1",
+    "drizzle-orm": "^0.45.1",
+    "hono": "^4.0.0",
+    "mammoth": "^1.11.0",
+    "mupdf": "^1.27.0",
+    "openai": "^6.22.0",
+    "pizzip": "^3.2.0",
+    "postgres": "^3.4.0",
+    "yauzl": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "drizzle-kit": "^0.31.9"
+  }
+}

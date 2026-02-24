@@ -1,0 +1,4 @@
+# Bun 配置文件
+# 使用 npm 官方源
+[install]
+registry = "https://registry.npmjs.org/"

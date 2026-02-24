@@ -1,0 +1,5 @@
+{
+  "name": "lexdocengine",
+  "private": true,
+  "workspaces": ["packages/*"]
+}

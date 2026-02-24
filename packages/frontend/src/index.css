@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* 全局字体 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 文档预览样式 */
+.document-preview {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #1e293b;
+}
+
+.document-preview .legal-memo-document {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.document-preview p {
+  margin-bottom: 0.5em;
+}
+
+.document-preview h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.document-preview strong {
+  font-weight: 600;
+}
